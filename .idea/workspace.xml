@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35f8b85-28f5-4be8-a0d1-6057a0a84db6" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/DeployServer/appspec.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeployServer/buildspec.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeployServer/scripts/initialize.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeployServer/scripts/server_clear.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeployServer/scripts/server_start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeployServer/scripts/server_stop.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+    <list default="true" id="c35f8b85-28f5-4be8-a0d1-6057a0a84db6" name="변경" comment="파이프라인 구축">
+      <change afterPath="$PROJECT_DIR$/DeployServer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeployServer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/DeployServer/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/AAWonJong/it/spring/Section4/be-sprint-deployment",
     "node.js.detected.package.eslint": "true",
@@ -52,11 +51,23 @@
       <option name="presentableId" value="Default" />
       <updated>1680094044308</updated>
       <workItem from="1680094046962" duration="7000" />
-      <workItem from="1680495858894" duration="340000" />
+      <workItem from="1680495858894" duration="1883000" />
     </task>
+    <task id="LOCAL-00001" summary="파이프라인 구축">
+      <created>1680496212183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680496212183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="파이프라인 구축" />
+    <option name="LAST_COMMIT_MESSAGE" value="파이프라인 구축" />
   </component>
 </project>
